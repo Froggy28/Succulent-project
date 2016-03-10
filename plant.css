@@ -1,0 +1,71 @@
+body {
+    /*background-color: lightgreen;*/
+    background-image: url("http://newflowerwallpaper.com/download/cartoon-flower-images-and-wallpapers/cartoon-flower-images-and-wallpapers-10.jpg");
+
+}
+h1{
+    font-family: calibri;
+    text-align: center;
+    color: Black;
+}
+canvas{
+ height:507px;
+ /*width:750px;*/
+ background-color: white;
+ border-radius:4px;
+ text-align:center;
+ /*margin-left:600px;*/
+ border: 5px outset skyblue;
+ vertical-align:top;
+}
+button{
+    margin: 3px;
+    background-color: lightblue;
+    font-family: calibri;
+    padding: 20.5px;
+    border: 3px outset skyblue;
+    border-radius: 12px;
+}
+/*button: click{*/
+/*    transform:translate(30,0);*/
+/*    background-color: darkblue;*/
+
+/*}*/
+
+#Menus{
+    vertical-align:top;
+    /*background-image= "http://7-themes.com/data_images/out/23/6846514-leaves-background.jpg";*/
+}
+span{
+    float:left;
+
+}
+
+#dropdown{
+  background-color: powderblue;  
+  border: 3px outset skyblue;
+  margin: 8px;
+  font-family: calibri;
+  padding: 20.5px;
+}
+
+
+
+select option {
+background-repeat:no-repeat;
+background-position:bottom left;
+}
+#snowman{
+    /*visibility: hidden;*/
+    display: none;
+}
+#bluepot{
+    /*visibilityshidden;*/
+    display: none;
+    height: 50px;
+    width: 50px;
+}
+bluepot{
+    height: 50px;
+    width: 50px;
+}

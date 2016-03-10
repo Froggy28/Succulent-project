@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="icon" type="png" href="http://sweetclipart.com/multisite/sweetclipart/files/aloe_vera_plant_pot.png">
+    <title> Plant your own succulents! </title>
+    <link rel="stylesheet" type="text/css" href="plant.css">
+    
+    <!--<script type="text/javascript" src="p5.js"></script>-->
+    <!--<script type="text/javascript" src="jquery.min.js"></script>-->
+    <!--<script  src="plant.js" type="text/javascript"></script>-->
+ 
+</head>
+
+
+<body>
+    
+    <h1>Plant Your Own Succulents!</h1>
+
+    <div id="Menus" style=" width:15%; display:inline-block; border: 2px solid black">
+
+<button id="potButton">Pots</button>
+<br></br>
+
+<button id="soilButton">Soil</button>
+<br></br>
+<button id="seedButton">Seeds</button>
+<br></br>
+<button id="decorButton">Decorations</button>
+    </div>
+    <script>
+        document.getElementById("bluepot").onload = function(){
+    var c = document.getElementById("canvas");
+    var ctx = c.getContext("2d");
+    
+    var img = document.getElementById("bluepot");
+    
+    ctx.drawImage(img, 100, 60, 100, 100);
+    };
+    </script>
+    <canvas id="canvas" style=" width:83.5%; display:inline-block" ondrop="drop(event)" ondragover="allowDrop(event)"></canvas>
+     <img id="bluepot" src="bluepot.1.png" width="50px" height="50px">
+ 
+    <div id="pot-options" style="outline: 2px solid black">
+        
+        <p><span><button id="bluePotButton">
+            <img id="bluePotImg"  data-internalid="bluepot.png" src="http://www.clker.com/cliparts/e/4/1/c/11954457881702806337johnny_automatic_flower_pot.svg.hi.png" draggable= "true" ondragstart="drag(event)" height="50px" width="50px"></img>
+            </button></span></p>
+            
+        <p><span><button id="brownPotButton"><img id="brownPotImg" src="http://www.clker.com/cliparts/5/F/M/j/Y/T/empty-flowerpot-md.png" draggable="true" ondragstart="drag(event)" height="50px" width="50px"></img></button></span></p>
+    </div>
+    
+    <div id="decorations">
+        <span><button id = "snowman"><img src="snowman.png" height="50px" width="50px"></img></button></span>
+    </div> 
+</body>
+
+</html>
